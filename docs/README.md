@@ -7,9 +7,7 @@ You can access information such as brand, model, version, type MINE, TECDOC K-Ty
 Doing business internationally? Benefit from our international coverage for vehicle data. Our APIs are currently available in 4 countries (France, Spain, Italy, Portugal), and we are doing our best to extend coverage throughout Europe.
 
 ---
-
 # [ AUTO-NOW  FR 🇫🇷](fr)
-
 ---
 
 ## **DEVELOPER :**
