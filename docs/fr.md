@@ -21,6 +21,9 @@
 | --- | --- | --- |
 | plaque | "AB123CD" or “AA-123-BC” | true |
 | token | YOUR_TOKEN_WILL_BE_HERE | true |
+| without_k_type | 0 or 1 | false |
+
+> If you don’t require the Tecdoc k type, you can add the parameter ‘without_k_type=1’ to your request to make it faster.
 
 ## cURL request :
 
@@ -121,6 +124,8 @@ curl -L -X GET 'https://app.auto-ways.net/api/v1/fr?plaque=AA123BC&token=YOUR_TO
 
 ## API References :
 
+You can visit this link to see all API references and the must possible values: https://app.auto-ways.net/api/fr/references
+
 The request was successful. The response body contains the following properties:
 
 - **`error`** (Boolean): Specifies whether the request resulted in an error. If false, the request was successful and the data property contains the relevant data. If true, the error property contains a description of the error.
@@ -184,3 +189,4 @@ The request was successful. The response body contains the following properties:
 
 - The API requires a valid token for authentication.
 - The plaque parameter must be in the format "AB123CD" or “AA-123-BC”.
+- If you don’t require the Tecdoc k type, you can add the parameter ‘without_k_type=1’ to your request to make it faster.
